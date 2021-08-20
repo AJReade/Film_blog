@@ -1,0 +1,369 @@
+/*================CSS RESET================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: none;
+}
+/*================BODY================*/
+@font-face{
+	font-family: roboto;
+	src: url('../Font/Roboto-Regular.woff') format('woff'),
+		 url('../Font/Roboto-Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: roboto;
+	src: url('../Font/Roboto-light.woff') format('woff'),
+		 url('../Font/Roboto-light.ttf') format('truetype');
+	font-weight: 300;
+}
+@font-face{
+	font-family: proxima;
+	src: url('../Font/ProximaNova-Light.woff.woff') format('woff'),
+		 url('../Font/ProximaNova-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+@font-face{
+	font-family: proxima;
+	src: url('../Font/ProximaNova-Regular.woff') format('woff'),
+		 url('../Font/ProximaNova-Regular.ttf') format('truetype');
+	}
+@font-face{
+	font-family: proxima;
+	src: url('../Font/ProximaNova-bold.woff') format('woff'),
+		 url('../Font/ProximaNova-bold.ttf') format('truetype');
+	font-weight: bold;
+	}
+body{
+	/*font-size: 13px;*/
+	font-family: roboto;
+}
+.wrapper{
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*================HEADER================*/
+.page-header, .page-footer{
+	height: 67px;
+	width: 100%;
+	background-color: #f7c61d;
+}
+.wrapper{
+	width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+.page-header .wrapper, .page-footer .wrapper{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav ul{
+	display: flex;
+	justify-content: space-between;
+}
+.page-header nav a{
+	font-family: proxima;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	padding: 0 35px;
+}
+/*================MAIN================*/
+.main>.wrapper{
+	display: flex;
+	align-items: stretch;
+}
+main{
+	width: 77%;
+}
+.right-sidebar{
+	width: 23%;
+}
+article{
+	display: flex;
+	margin-bottom: 50px;
+}
+img{
+	width: 100%;
+}
+.article-right{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 25px;
+}
+.article-right .meta{
+	margin: 18px 0;
+}
+.article-left{
+	width:30%;
+}
+.article-left img{
+	border-radius: 3px;
+}
+h2{
+	font-family: proxima;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 40px 0 15px; 
+}
+article h3{
+	font-family: proxima;
+	font-weight: 300;
+	font-size: 30px;
+}
+.meta, .date{
+	font-family: roboto;
+	font-weight: 200;
+	color: #999;
+	font-size: 13px;
+}
+.meta span::after{
+	direction: inline-block;
+	content: "|";
+	color: #999;
+	font-size: 13px;
+}
+.meta span:last-child::after{
+	display: none;
+}
+.category{
+	color: #e3b002;
+}
+.description{
+	color: #555;
+	font-size: 16px;
+	font-family: proxima;
+	font-weight: 300;
+	line-height: 1.6;
+}
+.description::after{
+	content: '>';
+	color: #e3b002;
+}
+.additional{
+	color: #999;
+	font-family: roboto;
+	font-weight: 300;
+	margin-top:  18px;
+	font-size: 13px;
+}
+.views::after{
+	content: "|";
+	margin: 10px;
+}
+.comments{
+	color: #e3b002;
+}
+.views::before, .comments::before{
+	content: '\f06e';
+	font-family: 'font awesome 5 free';
+	font-size: 13px;
+	margin-right: 10px;
+
+}
+.comments::before{
+	content: '\f075';
+	color: #999;
+}
+.more{
+	width: 170px;
+	height: 42px;
+	background-color: transparent;
+	color: #000;
+	font-family: roboto;
+	font-size: 12px;
+	text-transform: uppercase;
+	border: 1px solid 3px #e3b002;
+	border-radius: 5px;
+	outline: none;
+	text-align: center;
+	margin: 90px auto 0;
+	display: block;
+}
+a:visited{
+	color: inherit;
+}
+a:hover{
+	color: #e3b002;
+}
+/*================ASIDE================*/
+aside.right-sidebar{
+	padding-top: 78px;
+	padding-left: 65px;
+}
+.search-box{
+	width: 100%;
+	position: relative;
+}
+.search-box label{
+	position: absolute;
+	left:10px;
+	top: 9px;
+	z-index: 100;
+}
+.search-box input{
+	width: 100%;
+	border-radius: 10px;
+	padding: 8px 10px 8px 30px;
+	outline: none;
+	border: 1px solid #e5e5e5;
+	font-family: roboto;
+	font-size:14px;
+	box-sizing: border-box;
+}
+.calender-widget{	
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	margin-top: 38px;
+}
+.calender-widget .calender-top{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 38px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.calender-prev, .calender-next{
+	color: #e5e5e5;
+}
+.calender-widget table{
+	width: calc(100% + 4px);
+	margin-left: -2px;
+}
+.calender-widget table td{
+	height: 33px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #e5e5e5;
+	color: #e5e5e5;
+}
+.calender-widget table th{
+	height: 26px;
+	background-color: #e7e7e7;
+	color: #888;
+	text-align: center;
+	vertical-align: middle;
+}
+.calender-widget tr:last-child td:first-child{
+	border-radius: 0 0 0 10px;
+}
+.calender-widget tr:last-child td:last-child{
+	border-radius: 0 0 10px;
+}
+.calender-widget .current-month{
+	color: #4d4d4d;
+}
+.calender-widget .current-day{
+background-color: #f7c61d;
+color: #fff;
+}
+.popular-news article{
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.popular-news h3{
+	font-family: roboto;
+	line-height: 1.2;
+	font-size: 16px; 
+	margin-top: 10px;
+	font-weight: normal;
+}
+.popular-news h2 {
+	font-family: proxima;
+	font-weight: bold;
+	font-size: 18px;
+	display: flex;
+	white-space: nowrap;
+	align-items: center;
+}
+.popular-news h2::after {
+	content: '.';
+	font-size: 0;
+	display: block;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #e5e5e5;
+	margin-left: 20px;
+}
+/*================FOOTER================*/
+.page-footer{
+	margin-top: 64px;
+}
+.page-footer>.wrapper>*{
+	width: 33.33%;
+}
+.copy{
+	font-family: proxima;
+	font-size: 13px;
+	font-weight: 300;
+	color: #ac8b15;
+}
+
+.social{
+	display: flex;
+	justify-content: flex-end;
+}
+.social a {
+	display: block;
+	background-color: #FFF;
+ 	border-radius: 50%;
+ 	width: 45px;
+ 	height: 45px;
+ 	font-size: 24px;
+ 	color: #f7c61d;	
+ 	margin-left: 13px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-decoration: none;
+ }
+.footer-nav a{
+	padding:0 18px;
+	text-decoration: none;
+	color: #000;
+}

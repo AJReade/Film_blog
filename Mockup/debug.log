@@ -1,0 +1,41 @@
+[1029/025519.577:ERROR:angle_platform_impl.cc(47)] testDeviceLost(1884): The D3D11 device was removed, HRESULT: 0x887A0005
+[1029/025519.581:ERROR:raster_decoder.cc(1242)] RasterDecoder context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1029/025519.582:ERROR:raster_decoder.cc(985)]   RasterDecoderImpl: Context reset detected after MakeCurrent.
+[1029/025519.582:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.585:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.585:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.586:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.586:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.586:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.586:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.586:ERROR:gpu_channel_manager.cc(218)] Exiting GPU process because some drivers cannot recover from problems.
+[1029/025519.600:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: Context lost.
+[1029/025519.603:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: display had a context loss
+[1029/025519.606:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.606:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/025519.606:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroySurface: display had a context loss
+[1029/025519.606:ERROR:gl_surface_egl.cc(1171)] eglDestroySurface failed with error EGL_CONTEXT_LOST
+[1029/025519.606:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: display had a context loss
+[1029/025519.609:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.609:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/025519.609:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroySurface: display had a context loss
+[1029/025519.609:ERROR:gl_surface_egl.cc(1171)] eglDestroySurface failed with error EGL_CONTEXT_LOST
+[1029/025519.609:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[1029/025519.610:ERROR:shared_image_stub.cc(191)] SharedImageStub: context already lost
+[1029/025519.610:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: display had a context loss
+[1029/025519.611:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.611:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/025519.611:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: display had a context loss
+[1029/025519.611:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.611:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/025519.612:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: display had a context loss
+[1029/025519.612:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.612:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/025519.612:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglMakeCurrent: display had a context loss
+[1029/025519.613:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.613:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/025519.613:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglDestroyContext: display had a context loss
+[1029/025519.613:ERROR:gl_context_egl.cc(211)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[1029/220029.896:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1029/220052.171:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1031/001650.939:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
