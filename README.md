@@ -1,1 +1,1 @@
-# Film-blog side project Using CSS, HTMl and Js.
+# Film-blog side project Using CSS, HTML and Js.
